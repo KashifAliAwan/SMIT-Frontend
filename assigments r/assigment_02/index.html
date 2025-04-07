@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Lists Demonstration</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        h1, h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #e74c3c;
+            padding-bottom: 5px;
+        }
+        .recipe {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        dt {
+            font-weight: bold;
+            color: #e74c3c;
+            margin-top: 10px;
+        }
+        dd {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cooking with HTML Lists</h1>
+    
+    <div class="recipe">
+        <h2>Spaghetti Carbonara Recipe</h2>
+        
+        <h3>Ingredients (Unordered List)</h3>
+        <ul>
+            <li>400g spaghetti</li>
+            <li>200g pancetta or guanciale</li>
+            <li>3 large eggs</li>
+            <li>50g pecorino cheese</li>
+            <li>50g parmesan</li>
+            <li>Freshly ground black pepper</li>
+            <li>Salt</li>
+        </ul>
+        
+        <h3>Instructions (Ordered List)</h3>
+        <ol>
+            <li>Bring a large pot of salted water to boil</li>
+            <li>Cook spaghetti according to package instructions</li>
+            <li>While pasta cooks, fry pancetta until crispy</li>
+            <li>Whisk eggs and grated cheeses together</li>
+            <li>Drain pasta, reserving some cooking water</li>
+            <li>Quickly mix hot pasta with egg mixture</li>
+            <li>Add pancetta and mix well</li>
+            <li>Season with black pepper and serve immediately</li>
+        </ol>
+        
+        <h3>Cooking Terms (Definition List)</h3>
+        <dl>
+            <dt>Al dente</dt>
+            <dd>Pasta cooked to be firm to the bite</dd>
+            
+            <dt>Pancetta</dt>
+            <dd>Italian cured pork belly</dd>
+            
+            <dt>Grate</dt>
+            <dd>To reduce food to small shreds by rubbing on a grater</dd>
+        </dl>
+        
+        <h3>Variations (Nested List)</h3>
+        <ul>
+            <li>Classic Carbonara
+                <ul>
+                    <li>Use guanciale instead of pancetta</li>
+                    <li>Add extra black pepper</li>
+                </ul>
+            </li>
+            <li>Vegetarian Option
+                <ul>
+                    <li>Substitute pancetta with mushrooms</li>
+                    <li>Add garlic for extra flavor</li>
+                </ul>
+            </li>
+            <li>Creamy Version
+                <ul>
+                    <li>Add a splash of cream</li>
+                    <li>Use more egg yolks than whites</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="recipe">
+        <h2>Additional Notes</h2>
+        <ul>
+            <li>Always use freshly grated cheese for best results</li>
+            <li>The heat from the pasta cooks the eggs - work quickly!</li>
+            <li>Traditional carbonara doesn't include cream</li>
+        </ul>
+    </div>
+</body>
+</html>

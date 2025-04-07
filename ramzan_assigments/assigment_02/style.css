@@ -1,0 +1,87 @@
+body {
+    height: 100vh;
+    margin: 0px;
+    font-family: 'Montserrat';
+}
+
+.img {
+
+    background-image: url(park.jpg);
+
+    backdrop-filter: initial;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 750px;
+    color: white;
+    background: #1417597f;
+    backdrop-filter: blur(1px);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-radius: 20px;
+    border: 1px solid #bfc0d1eb;
+}
+
+.box h1 {
+    text-align: center;
+}
+
+span input {
+    all: unset;
+    background: white;
+    width: 580px;
+    margin-left: 20px;
+    padding: 10px 0px;
+    padding-left: 10px;
+}
+
+span button {
+    all: unset;
+    width: 100px;
+    height: 30px;
+    background: #FE4782;
+    font-size: 14px;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+.circle {
+    text-align: center;
+    
+}
+
+.circle_box {
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+.circle_box_main{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around ;
+}
+
+.profile p a {
+    color: #FE4782;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .profile{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }

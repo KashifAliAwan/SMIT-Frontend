@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  body, html {
+    height: 100%;
+  }
+
+  body {
+    background: url(https://avatars.mds.yandex.net/i?id=2f1831b043f9cbd29789caec59dce85a_l-10310841-images-thumbs&ref=rim&n=13&w=1200&h=536) no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    width: 900px;
+    height: 580px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  nav .logo {
+    font-weight: bold;
+    color: white;
+    font-size: 24px;
+  }
+
+  nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+  }
+
+  .login-btn {
+    background: white;
+    padding: 6px 15px;
+    border-radius: 10px;
+    color: #1a1a1a;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .form-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 25px;
+    border-radius: 15px;
+    width: 300px;
+    margin: auto;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+
+  .form-box h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .form-box input[type="text"],
+  .form-box input[type="email"],
+  .form-box input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+  }
+
+  .form-box input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .form-box label {
+    color: white;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 10px 0;
+  }
+
+  .form-box button {
+    width: 100%;
+    background: white;
+    color: #000;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+
+  .form-box p {
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+  }
+
+  .form-box p span {
+    color: #00ffff;
+    cursor: pointer;
+  }
+
+  .close-btn {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+  }
+
+  .profile p a {
+    color: #00ffff;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .profile{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }

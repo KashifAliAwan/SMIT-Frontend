@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links Demonstration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        .section {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .link-group {
+            margin: 15px 0;
+            padding: 15px;
+            background-color: #f0f8ff;
+            border-radius: 5px;
+        }
+        h2 {
+            color: #3498db;
+        }
+        #specific-section {
+            background-color: #e6f7ff;
+            padding: 20px;
+            border-left: 4px solid #3498db;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="section">
+        <h1>Understanding Different Types of Links</h1>
+        <p>This webpage demonstrates various types of hyperlinks used in HTML, including absolute URLs, relative URLs, and links to specific sections of pages.</p>
+    </div>
+
+    <div class="section">
+        <h2>Absolute URL Links</h2>
+        <p>These links point to resources on completely different websites:</p>
+        <div class="link-group">
+            <a href="https://www.google.com" target="_blank">Google (opens in new tab)</a><br>
+            <a href="https://www.github.com">GitHub</a><br>
+            <a href="https://www.wikipedia.org">Wikipedia</a><br>
+            <a href="https://developer.mozilla.org/en-US/">MDN Web Docs</a>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Relative URL Links</h2>
+        <p>These links point to resources within the same website:</p>
+        <div class="link-group">
+            <a href="/about.html">About Page</a><br>
+            <a href="contact.html">Contact Page</a><br>
+            <a href="/logoimage.html">Logo Image</a><br>
+            <a href="/logoimage.html">CSS File</a>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Same Page Navigation</h2>
+        <p>Jump to different sections within this page:</p>
+        <div class="link-group">
+            <a href="#specific-section">Go to Specific Section Below</a><br>
+            <a href="#top">Back to Top</a>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Cross-Page Navigation</h2>
+        <p>Link to specific sections on other pages (assuming these pages exist):</p>
+        <div class="link-group">
+            <a href="about.html#team">About Page - Team Section</a><br>
+            <a href="services.html#pricing">Services Page - Pricing Section</a>
+        </div>
+    </div>
+
+    <div id="specific-section" class="section">
+        <h2>Specific Section of This Page</h2>
+        <p>This is the target section that you can link to within this page. Notice the URL changes when you click the "Go to Specific Section" link above.</p>
+        <p>The link to this section uses a fragment identifier (#specific-section) that matches the ID of this div element.</p>
+        <a href="#top">Back to top</a>
+    </div>
+
+    <div class="section">
+        <h2>Email and Telephone Links</h2>
+        <p>Bonus link types:</p>
+        <div class="link-group">
+            <a href="mailto:kashifali@gmail.com">Send Email</a><br>
+            <a href="https://wa.me/03120241179" target="_blank">Whatsapp Kashif Ali</a>
+        </div>
+    </div>
+</body>
+</html>
