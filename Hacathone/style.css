@@ -1,0 +1,126 @@
+body {
+      background-color: #f5f7fa;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .navbar-brand {
+      font-weight: bold;
+      color: #263238;
+    }
+    .navbar-nav .nav-link {
+      color: #4D4D4D;
+      margin-right: 1rem;
+    }
+    .btn-register-now {
+      background-color: #4CAF4F;
+      color: white;
+      border-radius: 4px;
+      padding: 8px 16px;
+    }
+    .hero-title {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #263238;
+    }
+    .hero-highlight {
+      color: #4CAF4F;
+    }
+    .hero-subtext {
+      color: #717171;
+      margin-top: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    .btn-register {
+      background-color: #4CAF4F;
+      color: white;
+      padding: 10px 24px;
+      border-radius: 6px;
+      border: none;
+    }
+    .btn-register:hover {
+      background-color: #43a047;
+    }
+
+    .sde_image{
+        width: 307px;
+        height: 301px;
+    }
+
+     body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f6f8;
+    }
+
+    .stats-container {
+      background-color: #f4f6f8;
+      padding: 60px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .stats-heading {
+      margin-bottom: 40px;
+    }
+
+    .stats-heading h2 {
+      font-size: 28px;
+      margin: 0;
+      font-weight: 600;
+      color: #333;
+    }
+
+    .stats-heading h2 span {
+      color: #4CAF4F;
+    }
+
+    .stats-heading p {
+      font-size: 14px;
+      color: #666;
+      margin-top: 10px;
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 40px;
+      max-width: 1000px;
+      width: 100%;
+    }
+
+    .stat-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .stat-item img {
+      width: 40px;
+      height: 40px;
+      margin-bottom: 10px;
+    }
+
+    .stat-number {
+      font-size: 20px;
+      font-weight: bold;
+      color: #1d1d1f;
+    }
+
+    .stat-label {
+      font-size: 14px;
+      color: #555;
+    }
+
+    @media (max-width: 768px) {
+      .stats-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .stats-grid {
+        grid-template-columns: 1fr;
+      }
+    }

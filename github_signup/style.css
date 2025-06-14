@@ -1,0 +1,111 @@
+* {
+    font-family: "Mona Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    font-variation-settings:
+        "width" 100;
+}
+
+.main_container {
+    display: flex;
+    height: 100vh;
+    /* gap: 50px; Add some spacing between left and right columns */
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.bg-transparent{
+    background-color: transparent;
+}
+/* Set fixed width or percentages */
+.left_container {
+    width: 50%;
+    background-image: url("bg-left.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.emoji-img > img{
+    max-width: 550px;
+}
+.wth{
+    width: 480px;
+}
+.right_container {
+    width: 50%;
+    overflow-y: auto;
+    /* padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 64px; */
+    padding: 64px 80px 
+    /* overflow: hidden; */
+}
+
+.fs-01{
+    font-size: 14px;
+}
+
+.fs-32{
+    font-size: 32px;
+}
+.fs-20{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 53px;
+}
+
+.container{
+    margin-left: 53px;
+    margin-right: 53px;
+}
+
+.accordion-button {
+    background-color: transparent !important;
+    color: white;
+    box-shadow: none;
+    border: none;
+    width: 40%;
+    padding-left: 0px;
+}
+
+.accordion-body {
+    background-color: transparent;
+    color: white;
+}
+
+.accordion-item {
+    background-color: transparent;
+    border: none;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: transparent;
+    outline: none;
+    color: white;
+}
+.accordion-button {
+    border: none !important;
+    box-shadow: none !important;
+    color: white;
+}
+.accordion-button::after {
+    filter: brightness(0) invert(1);
+}
+.form_p{
+    font-size: 12px !important;
+    color: var(--bs-secondary-color);
+    margin-top: .80rem;
+    width: 400px;
+}
+.form-text{
+    font-size: 12px;
+}
+.fs-14{
+    font-size: 14px;
+}
